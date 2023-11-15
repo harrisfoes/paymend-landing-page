@@ -1,9 +1,10 @@
 import "./index.css";
+import Header from "./components/Header/Header";
 
 const App = () => {
   return (
-    <div>
-      <p className="text-3xl font-bold underline">Hello world</p>
+    <div className="bg-black h-screen">
+      <Header />
     </div>
   );
 };

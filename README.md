@@ -1,5 +1,3 @@
-![contact us form](./design/desktop.svg)
-
 **Challenge Title**
 Payment Landing Page
 
