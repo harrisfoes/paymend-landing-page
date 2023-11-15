@@ -1,6 +1,5 @@
-import React from "react";
 import logo from "../../assets/logo.svg";
-import close from "../../assets/close.svg";
+import close from "../../assets/close-2.svg";
 import { useState } from "react";
 
 const Logo = () => {
@@ -88,8 +87,27 @@ const Header = () => {
 
   return (
     <header>
-      <div className="px-6 py-8 flex justify-between">
+      <div className="px-6 py-8 flex justify-between items-center">
         <Logo />
+        <div className="hidden md:block">
+          <ul className="flex gap-8 text-2xl">
+            {navLinks.slice(0, -2).map((linkItems) => {
+              return (
+                <li key={linkItems.name}>
+                  <NavLinks name={linkItems.name} href={linkItems.href} />
+                </li>
+              );
+            })}
+          </ul>
+        </div>
+        <div className="hidden md:block font-bold">
+          <button className="bg-lightpurp text-black rounded-xl m-2 my-6 w-40 text-2xl h-14">
+            Login
+          </button>
+          <button className="bg-lightpurp text-black rounded-xl m-2 my-6 w-40 text-2xl h-14">
+            Sign Up
+          </button>
+        </div>
         <BurgerMenu openMobileMenu={setIsMobileMenuOpen} />
       </div>
       {isMobileMenuOpen ? (
