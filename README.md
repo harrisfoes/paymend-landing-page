@@ -1,24 +1,71 @@
-**Challenge Title**
-Payment Landing Page
+# Payment App
 
-**Challenge Description**
-We need a landing page for every type of website/app. It helps users to get to know about our product. In this challenge, You’ll create a Payment Landing Page for a fictional Payment App.
+This is a simple landing page for a payment app website.
 
-**Difficulty Level**
-Beginner
+Tech used:
 
-**Tags**
-FRONTEND
+- React.js
+- Tailwind CSS
 
-**Learning**
-You'll learn to build a Payment Landing Page for a fictional Payment App and you'll learn to make it responsive and mobile-friendly. You're definitely going to love this challenge. So what are you waiting for?
+Made from scratch using the figma design obtained from https://www.frontendpro.dev/
 
-**Requirements**
+## Table of contents
 
-- Show hover effect of all the elements
-- Show hamburger menu on mobile devices
-- Make it responsive
+- [Overview](#overview)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+  - [Useful resources](#useful-resources)
+- [Author](#author)
+- [Acknowledgments](#acknowledgments)
 
-I hope you'll enjoy building this challenge.
+## Overview
 
-Feel free to share your solution on the website or on social media and tag us.
+### Screenshot
+
+![](./src/assets/2023-11-16_17-04.png)
+
+### Links
+
+- Solution URL: [github](https://github.com/harrisfoes/payment-landing-page)
+- Live Site URL: [here](https://harrisfoes.github.io/payment-landing-page/)
+
+## My process
+
+### Built with
+
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
+- Mobile-first workflow
+- [React](https://reactjs.org/) - JS library
+- Tailwind
+
+### What I learned
+
+This project has given me with a lot of firsts
+
+- I grappled with Tailwind CSS (my first project using the resource)
+- Handling overflow was a challenge
+- The Hamburger Menu took a full day but hoping I could now make it quicker in the future
+- First time working with mobile-first design
+- First time working with a figma file
+
+### Continued development
+
+None. This is considered done
+
+### Useful resources
+
+- [Tailwind Cheatsheet](https://nerdcave.com/tailwind-cheat-sheet) - Writing in Tailwind is nigh-impossible without this
+
+## Author
+
+- Website - [Harris Escalante](https://harrisfoes.github.io/portfolio-page/)
+- Frontend Mentor - [@harrisfoes](https://www.frontendmentor.io/profile/harrisfoes)
+
+## Acknowledgments
+
+I'd like to thank the good folks at frontendpro.dev for the design

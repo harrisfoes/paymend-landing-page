@@ -101,10 +101,10 @@ const Header = () => {
           </ul>
         </div>
         <div className="hidden md:block font-bold">
-          <button className="bg-lightpurp text-black rounded-xl m-2 my-6 px-8 lg:w-40 lg:text-2xl h-14 hover:text-lightpurp hover:bg-darkblue active:text-black active:bg-lightpurp">
+          <button className="bg-lightpurp text-black rounded-xl m-2 my-6 px-8 lg:w-40 lg:text-xl h-14 hover:text-lightpurp hover:bg-darkblue active:text-black active:bg-lightpurp">
             Login
           </button>
-          <button className="bg-lightpurp text-black rounded-xl m-2 my-6 px-8 lg:w-40 lg:text-2xl h-14 hover:text-lightpurp hover:bg-darkblue active:text-black active:bg-lightpurp">
+          <button className="bg-lightpurp text-black rounded-xl m-2 my-6 px-8 lg:w-40 lg:text-xl h-14 hover:text-lightpurp hover:bg-darkblue active:text-black active:bg-lightpurp">
             Sign Up
           </button>
         </div>
