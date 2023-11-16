@@ -86,11 +86,11 @@ const Header = () => {
   ];
 
   return (
-    <header>
-      <div className="px-6 py-8 flex justify-between items-center">
+    <header className="w-full">
+      <div className="px-6 lg:px-16 py-8 flex justify-between items-center">
         <Logo />
         <div className="hidden md:block">
-          <ul className="flex gap-8 text-2xl">
+          <ul className="flex gap-8 lg:text-2xl lg:font-medium lg:gap-20">
             {navLinks.slice(0, -2).map((linkItems) => {
               return (
                 <li key={linkItems.name}>
@@ -101,10 +101,10 @@ const Header = () => {
           </ul>
         </div>
         <div className="hidden md:block font-bold">
-          <button className="bg-lightpurp text-black rounded-xl m-2 my-6 w-40 text-2xl h-14">
+          <button className="bg-lightpurp text-black rounded-xl m-2 my-6 px-8 lg:w-40 lg:text-2xl h-14 hover:text-lightpurp hover:bg-darkblue active:text-black active:bg-lightpurp">
             Login
           </button>
-          <button className="bg-lightpurp text-black rounded-xl m-2 my-6 w-40 text-2xl h-14">
+          <button className="bg-lightpurp text-black rounded-xl m-2 my-6 px-8 lg:w-40 lg:text-2xl h-14 hover:text-lightpurp hover:bg-darkblue active:text-black active:bg-lightpurp">
             Sign Up
           </button>
         </div>
